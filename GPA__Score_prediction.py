@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error,mean_squared_error,r2_score
 import numpy as np
 # upload the data
-score = pd.read_csv("E:/S.K.Muthu/excel/GAP Prediction.csv")
+score = pd.read_csv("data/GAP Prediction.csv")
 
 x = score[['SAT']].values.reshape(-1,1)
 y = score[['GPA']].values.reshape(-1,1)
