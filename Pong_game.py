@@ -112,6 +112,7 @@ while game_over:
         ball.dx *= -1
     if ball.xcor() < - 460 and ball.ycor() < left_pad.ycor()+ 50  and left_pad.ycor()-50 < ball.ycor():
         ball.dx *= -1
+    
 
 
 
